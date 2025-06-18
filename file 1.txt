@@ -10,7 +10,7 @@ qrs
 stu
 uvw
 wxy
-yz0
+yz
 1010
 1011
 1100
