@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 10px;
+}
+h1{
+    color: indianred;
+    padding-left: 400px;
+    margin-left: 100px;
+}
+p{
+    color: rgb(0, 102, 255);
+    font-style: italic;
+    font-size: medium;
+}
+div{
+    background-color: rgb(230, 101, 37);
+    height: 50px;
+    width: 150px;
+    border: 1.5px;
+    border-color: black;
+}
+button:hover{
+background-color: blueviolet;
+color: greenyellow;
+}
+button{
+    background-color: goldenrod;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    color: black;
+}
+body{
+    background-image:url('yt_icon_rgb.ico');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    
+}

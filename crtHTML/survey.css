@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(141, 141, 252);
+    justify-content: left;
+    min-height: 10vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+fieldset{
+    
+    border: 1px solid rgb(246, 203, 203);
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 25px;
+    
+}
+form{
+    
+    background-color: rgba(68, 74, 250, 0.89);
+    padding: 50px;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    max-width: fit-content;
+    
+}
+
+label{
+    display:inline-block;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(1, 38, 49);
+    font-size: medium;
+}
+input{
+    background-color: rgba(151, 136, 231, 0.303);
+    
+
+}
+::placeholder{
+    color: rgb(42, 41, 41);
+}
+select{
+    background-color: rgba(151, 136, 231, 0.303);
+    
+}
+textarea{
+   background-color: rgba(151, 136, 231, 0.303);
+}
+button:hover{
+background-color: rgb(52, 49, 55);
+color: rgb(223, 224, 222);
+}
+button{
+    background-color: rgb(5, 114, 198);
+    
+    color: black;
+}
