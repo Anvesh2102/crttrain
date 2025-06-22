@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey From</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+  <center>
+    <h1 id="title">Student survey Form</h1>
+    <p id="description"><em>Thanks for providing your college review</em></p><br>
+    <form>
+      <fieldset>
+      <label for="name">Student name:</label>
+      <input type="text"id="name"placeholder="Enter your full name" required/><br><br>
+      <label for="email">Email:</label>
+      <input type="email"id="email"placeholder="Enter the mail id" required/><br><br>
+      <label for="dropdown" required>Select your region</label>
+      <select id="dropdown"required>
+        <option value="" disabled selected>Select your region:</option>
+        <option value="suryapet">Suryapet</option>
+        <option value="karimnagar">Karimnagar</option>
+        <option value="nalgonda">Nalgonda</option>
+        <option value="kodad">Kodad</option>
+        <option value="khammam">Khammam</option>
+        <option value="nizamabad">Nizamabad</option>
+        <option value="bopalpally">Bhopalapally</option>
+        <option value="hyderabad">Hyderabad</option>
+      </select><br><br>
+      <label for="dropdown">Select your college</label>
+      <select id="dropdown"required>
+        <option value="" disabled selected>Select your College:</option>
+        <option value="mrcet">MRCET</option>
+        <option value="anurag">ANURAG</option>
+        <option value="svec">SVEC</option>
+        <option value="nrcm">NRCM</option>
+        <option value="mrits">MRITS</option>
+        <option value="st.peter">St.Peter</option>
+        <option value="mlrs">MLRS</option>
+        <option value="mrce">MRCE</option>
+        <option value="mrec">MREC</option>
+      </select><br><br>
+       
+      <label for="branch">Select your Branch:</label>
+      <input  type="radio" name="branch" id="eee" value="eee"required>EEE
+      <input type="radio" name="branch" id="ece" value="ece">ECE
+      <input type="radio" name="branch" id="cse" value="cse">CSE
+      <input type="radio" name="branch" id="csd" value="csd">CSD
+      <input type="radio" name="branch" id="csm" value="csm">CSM
+      <input type="radio" name="branch" id="civil" value="civil">CIVIL
+      <input type="radio" name="branch" id="mech" value="mech">MECH
+      <input type="radio" name="branch" id="aero" value="aero">AERO<br><br>
+      <label for="number">Roll number:</label>
+      <input type="number"id="number"placeholder="Enter your rollnumber" min="1000000000" max="9999999999" required/><br><br>
+      <label for="gender">Select your Gender:</label>
+      <input  type="radio" name="name" id="male" value="male"required>Male
+      <input type="radio" name="name" id="female" value="female">Female
+      <input type="radio" name="name" id="others" value="others">Others<br><br>
+      <label for=rating>Rate the faculty:</label>
+      <input type="radio" id="excellent" name="rating"required> Excellent
+      <input type="radio" id="good" name="rating">Good
+      <input type="radio" id="satisfactory" name="rating">Satisfactory
+      <input type="radio" id="poor" name="rating">Poor
+      <input type="radio" id="verypoor" name="rating">Verypoor
+      <br><br>
+      <label for="facility">What does your college provides you:</label>
+      <input type="checkbox" id="labs" name="facility" value="labs">Labs
+      <input type="checkbox" id="train" name="facility" value="train">Training Sessions
+      <input type="checkbox" id="internship" name="facility" value="internship" required>Internships
+      <input type="checkbox" id="clubs" name="facility" value="clubs">Clubs
+      <input type="checkbox" id="skill" name="facility" value="skill">Other skills
+      <br><br>
+      <label for="rating" required>Rate the Session:</label>
+      <input type="radio" id="good"name="rating">Good
+      <input type="radio" id="nice" name="rating">Nice
+      <input type="radio" id="okay" name="rating">Okay
+      <input type="radio" id="notBad" name="rating">Not Bad
+      <input type="radio" id="worse" name="rating">Worse
+      <br><br>
+      <label for="comment">Any other comments:</label><br><br>
+      <textarea id="comment" name="comment" placeholder="Enter your comment here..."required></textarea><br><br>
+<center><button type="submit" value="submit">Submit</button></center>
+    </fieldset>
+    </form>
+  </center>
+</body>
+</html>

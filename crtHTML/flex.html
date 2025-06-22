@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Container{
+            display: flex solid black;/*use flex box for layout*/
+            /*flex-direction: row;/*Arrange the items in a row*/
+            justify-content: center;
+            flex-wrap: wrap;
+            grid-template-columns: auto auto ;
+        }
+        .Container div{
+            background-color: lightseagreen;
+            border-radius: 20px;
+            border: 2px;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        /* .box{
+            width: 250px;
+            height: 250px;
+            font-size: 5cm;
+            text-align: center;
+            border-radius: 50px;
+        }
+        #box1{
+            background-color: blueviolet;
+        }
+        #box2{
+            background-color: rgb(43, 226, 98);
+        }
+        #box3{
+            background-color: rgb(226, 43, 122);
+        }
+        #box4{
+            background-color: rgb(226, 43, 43);
+        }
+        #box5{
+            background-color: rgb(226, 171, 43);
+        }
+        #box0{
+            background-color: rgb(150, 226, 43);
+        } */
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="box"id="box0">0</div>
+        <div class="box"id="box1">1</div>
+        <div class="box"id="box2">2</div>
+        <div class="box"id="box3">3</div>
+        <div class="box"id="box4">4</div>
+        <div class="box"id="box5">5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    background-image: url('texture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    min-height: 10vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+form{
+    background-color: rgba(234, 231, 231, 0.153);
+    padding: 50px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: fit-content;
+}
+fieldset{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 25px;
+}
+legend{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 0%;
+    margin-bottom: 10px;
+    font-size: medium;
+    letter-spacing: 0.5cap;   
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label{
+    display:inline-block;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(1, 38, 49);
+    font-size: medium;
+    text-align: center;
+    justify-content: center;
+}    
+input{
+    
+}
+.gender-group{
+
+}
